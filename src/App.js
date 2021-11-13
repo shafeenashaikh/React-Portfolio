@@ -1,9 +1,11 @@
-import './App.css';
+import './App.scss'
 
 function App() {
   return (
     <div className="App">
-        <h1>React Portfolio</h1>
+     
+        <div className="sidebar"></div>
+        <div className="main-content"></div>
     </div>
   );
 }
