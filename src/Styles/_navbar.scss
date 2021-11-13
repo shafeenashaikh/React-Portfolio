@@ -20,6 +20,22 @@
             }
         }
 
+        .nav-items{
+            width: 100%;
+            .nav-item{
+                list-style: none;
+                text-align: center;
+               
+                a{
+                    text-decoration: none;
+                    font-size: inherit;
+                    color: inherit;
+                    display: block;
+                    padding: .5rem 0;
+                }
+            }
+        }
+
         .footer{
             width: 100%;
             border-top: 1px solid #2e344e;
@@ -29,4 +45,7 @@
             }
         }
     }
+}
+.active{
+    background-color: #037fff;
 }
