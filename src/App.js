@@ -1,6 +1,8 @@
 import './App.scss'
 import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
+import { Routes ,Route } from 'react-router-dom';
+import AboutPage from './Pages/AboutPage';
 
 function App() {
   return (
@@ -11,7 +13,13 @@ function App() {
         </div>
         <div className="main-content">
           <div className="content">
-            <HomePage/>
+            <Routes>
+              <Route path="/" element={<HomePage/>} >
+              </Route>
+              <Route path="/about"  element={<AboutPage />}>
+                
+              </Route>
+           </Routes>
           </div>
         </div>
     </div>
