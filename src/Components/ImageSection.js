@@ -32,6 +32,7 @@ function ImageSection() {
                         <p>: France, Spain, Germany</p>
                     </div>
                 </div>
+                <button className="btn">Download Cv</button>
             </div>
         </div>
     )
