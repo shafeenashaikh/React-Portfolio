@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../images/about.png'
+import about from '../images/about.jpg'
 
 function ImageSection() {
     return (
@@ -8,7 +8,7 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span>Lorem Ipsum</span></h4>
+                <h4>I am<span> Lorem Ipsum</span></h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
