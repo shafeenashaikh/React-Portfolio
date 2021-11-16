@@ -15,7 +15,30 @@ function ImageSection() {
                     Desir per po la ta doso vi slone ve?
                 </p>
                 <div className="about-details">
-
+                    <div className="name-details">
+                        <p>Full Name</p>
+                        <p>: Lorem Ipsum</p>
+                    </div>
+                    <div className="name-details">
+                        <p>Age</p>
+                        <p>: 50</p>
+                    </div>
+                    <div className="name-details">
+                        <p>Nationality</p>
+                        <p>: New Zealand</p>
+                    </div>
+                    <div className="name-details">
+                        <p>Language</p>
+                        <p>: Spanish, French, English</p>
+                    </div>
+                    <div className="name-details">
+                        <p>Address</p>
+                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
+                    </div>
+                    <div className="name-details">
+                        <p>Countries</p>
+                        <p>: Spain, France</p>
+                    </div>
                 </div>
             </div>
         </div>
