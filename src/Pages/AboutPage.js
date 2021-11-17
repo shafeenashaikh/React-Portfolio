@@ -3,6 +3,7 @@ import ImageSection from '../Components/ImageSection';
 import ServicesSection from '../Components/ServicesSection';
 import SkillsSection from '../Components/SkillsSection';
 import Tittle from '../Components/Tittle';
+import design from '../images/design.svg'
 
 function AboutPage() {
     return (
@@ -22,7 +23,7 @@ function AboutPage() {
                 <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
             </div>
             <div className="services-container">
-                <ServicesSection/>
+                <ServicesSection image={design}/>
             </div>
         </div>
     )
