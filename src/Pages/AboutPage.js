@@ -3,7 +3,9 @@ import ImageSection from '../Components/ImageSection';
 import ServicesSection from '../Components/ServicesSection';
 import SkillsSection from '../Components/SkillsSection';
 import Tittle from '../Components/Tittle';
-import design from '../images/design.svg'
+import design from '../images/design.svg';
+import intelligence from '../images/intelligence.svg'
+import gamedev from '../images/game-dev.svg'
 
 function AboutPage() {
     return (
@@ -24,13 +26,13 @@ function AboutPage() {
             </div>
             <div className="services-container">
                 <ServicesSection image={design} title={'web design'} 
-                    text={'Lorem Ipsum dolor sit amet consecteture adipisicing elit.'}
+                    text={'Web design encompasses many different skills and disciplines in the production'}
                 />
-                 <ServicesSection image={design} title={'web design'} 
-                    text={'Lorem Ipsum dolor sit amet consecteture adipisicing elit.'}
+                 <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
+                    text={'Artificial intelligence makes possible for machines to learn from experience.'}
                 />
-                 <ServicesSection image={design} title={'web design'} 
-                    text={'Lorem Ipsum dolor sit amet consecteture adipisicing elit.'}
+                 <ServicesSection image={gamedev} title={'Game Development'} 
+                    text={'Here’s some terminology you’ll hear throughout your career as a game developer.'}
                 />
 
             </div>
