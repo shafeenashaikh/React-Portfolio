@@ -24,6 +24,8 @@ function AboutPage() {
                 <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
                 <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
             </div>
+
+            <Tittle title={'Services'} span={'Services'}/>
             <div className="services-container">
                 <ServicesSection image={design} title={'web design'} 
                     text={'Web design encompasses many different skills and disciplines in the production'}
