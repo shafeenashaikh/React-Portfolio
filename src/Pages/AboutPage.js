@@ -23,7 +23,16 @@ function AboutPage() {
                 <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
             </div>
             <div className="services-container">
-                <ServicesSection image={design}/>
+                <ServicesSection image={design} title={'web design'} 
+                    text={'Lorem Ipsum dolor sit amet consecteture adipisicing elit.'}
+                />
+                 <ServicesSection image={design} title={'web design'} 
+                    text={'Lorem Ipsum dolor sit amet consecteture adipisicing elit.'}
+                />
+                 <ServicesSection image={design} title={'web design'} 
+                    text={'Lorem Ipsum dolor sit amet consecteture adipisicing elit.'}
+                />
+
             </div>
         </div>
     )
