@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageSection from '../Components/ImageSection';
+import ServicesSection from '../Components/ServicesSection';
 import SkillsSection from '../Components/SkillsSection';
 import Tittle from '../Components/Tittle';
 
@@ -19,6 +20,9 @@ function AboutPage() {
                 <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
                 <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
                 <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
+            </div>
+            <div className="services-container">
+                <ServicesSection/>
             </div>
         </div>
     )
