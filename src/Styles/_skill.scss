@@ -24,17 +24,14 @@
              margin-left: 1rem;
              background-color: #0381ff3f;
              position: relative;
-             
-             &::after{
-                 content: "";
-                 position: absolute;
-                 width: 70%;
-                 background-color: #037FFF;
-                 height: 100%;
-                 bottom: 0;
-                 left: 0;
-                //  border-radius: 5rem;
+             .inner-progress{
+                position: absolute;
+                background-color: #037FFF;
+                height: 100%;
+                bottom: 0;
+                left: 0;
              }
+            
          }
         }
     }
