@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import AllBlogs from '../Components/allBlogs';
 
 function BlogPage() {
     return (
     <div className="BlogsPage">
-        <h1>Blogs Page</h1>
+        
     </div>
     )
 }
