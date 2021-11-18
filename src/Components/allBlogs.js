@@ -25,15 +25,6 @@ const blogs =[
         year: '2019'
     },
     {
-        id: 1,
-        image: blog1,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'http://www.facebook.com/',
-        date: '21',
-        month: 'Mar',
-        year: '2020'
-    },
-    {
         id: 3,
         image: blog3,
         title: 'UI/UX Design Starter with Figma',
@@ -89,4 +80,4 @@ const blogs =[
     },
 
 ];
-export default blogs;
+export default blogs
