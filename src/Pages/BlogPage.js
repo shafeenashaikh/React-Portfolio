@@ -1,9 +1,14 @@
 import React from 'react';
 import blogs from '../Components/allBlogs';
+import Tittle from '../Components/Tittle';
 
 function BlogPage() {
     return (
-    <div className="BlogsPage">
+    <div>
+         <div className="b-title">
+            <Tittle title={'Recent Blogs'} span={'Recent Blogs'}/>
+         </div>
+        <div  className="BlogsPage">
         {
             blogs.map((blog) =>{
                 return (
@@ -19,6 +24,7 @@ function BlogPage() {
                 )
             })
         }
+        </div>
     </div>
     )
 }

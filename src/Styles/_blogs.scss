@@ -13,9 +13,9 @@
             padding-bottom: 2rem;
             img{
                 width: 100%;
-                transition: all .4s ease-in-out;
+                transition: all .2s ease-in-out;
                 &:hover{
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                 }
                 padding-bottom: 2rem;
             }
@@ -32,4 +32,7 @@
             }
         }
     }
+}
+.b-title{
+    margin-bottom: 4rem;
 }
