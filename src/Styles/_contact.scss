@@ -1,6 +1,8 @@
 .contactItem{
     width: 100%;
-    margin: 1rem 0;
+    &:not(:la){
+        margin-bottom: 1rem;
+    }
     .contact{
         display: flex;
         align-items: center;
@@ -18,12 +20,14 @@
 }
 .ContactPage{
     display: flex;
+    grid-template-columns: repeat(2, 1rem);
+    margin-bottom: 6rem;
     .contact-sect{
         width: 100%;
     }
 }
 .map-sect{
-    width: 90%;
+    width: 97%;
     padding: 1rem;
     background-color: #191D28;
     iframe{
@@ -34,4 +38,7 @@
 .contact-sect{
     margin-left: 2rem;
 
+}
+.title{
+    margin-bottom: 5rem;
 }
