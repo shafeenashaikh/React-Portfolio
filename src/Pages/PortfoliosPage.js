@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Tittle from '../Components/Tittle';
 
 function PortfoliosPage() {
     return (
         <div className="PortfoliosPage">
-           <h2>Portfolios Page</h2>
+            <Tittle title={'Portfolios'} span={'Portfolios'}/>
         </div>
     )
 }
