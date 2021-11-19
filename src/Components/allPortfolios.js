@@ -25,7 +25,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'Y',
         image: port2,
-        title: 'Pythin Web Scrapping'
+        title: 'Python Web Scrapping'
     },
     {
         id: 3,
