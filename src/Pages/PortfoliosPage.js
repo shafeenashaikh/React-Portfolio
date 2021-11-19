@@ -7,6 +7,7 @@ import portfolios from '../Components/allPortfolios'
 function PortfoliosPage() {
     const [categories, setCategories] = useState(null);
     const [menuItems, setMenuItems] = useState(portfolios);
+    
     return (
         <div className="PortfoliosPage">
             <div className="title">
