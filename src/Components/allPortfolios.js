@@ -47,18 +47,9 @@ const portfolios = [
         image: port4,
         title: 'Vanilla Javascript Website'
     },
-    // {
-    //     id: 5,
-    //     category: 'React Js',
-    //     link1: 'www.youtube.com',
-    //     link2: 'www.github.com',
-    //     icon1: 'G',
-    //     icon2: 'Y',
-    //     image: port6,
-    //     title: 'Getting Started With React'
-    // },
+  
     {
-        id: 6,
+        id: 5,
         category: 'React Js',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
