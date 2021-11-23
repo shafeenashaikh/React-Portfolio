@@ -4,9 +4,21 @@
         height: 100vh;
         background-color: #191D2B;
         position: fixed;
+        z-index: 11;
         border-right: 1px solid #2e344e;
+       
+        transform-origin: left;
         @media screen and (max-width: 1000px) {
-            transform: translate(-1000%);
+            transition: all .4s ease-in-out;
+            transform: translateX(-1000%);
+            width: 30%;
+        }
+    }
+    .nav-toggle{
+        @media screen and (max-width: 1000px) {
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+            
         }
     }
 
