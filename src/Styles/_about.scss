@@ -21,6 +21,9 @@
             padding: 1rem 0;
         }
     }
+    @media screen and (max-width: 1400px){
+        flex-direction: column;
+    }
 }
 .about-details{
     display: flex;
@@ -29,6 +32,10 @@
     }
     .right-section{
         margin-left: 2.3rem;
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+        }
     }
 }
 
