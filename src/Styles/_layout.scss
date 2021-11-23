@@ -21,6 +21,22 @@
         .content{
             margin: 5rem 15rem;
         }
-       
+        @media screen and (max-width: 1000px) {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 10%;
+    background-color: red;
+    width: 5rem;
+    height: 5rem;
+    display: none;
+    @media screen and (max-width: 1000px) {
+        display: block;
     }
 }

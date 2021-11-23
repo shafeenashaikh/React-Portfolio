@@ -59,13 +59,13 @@ const portfolios = [
         title: 'Vanilla Javascript Website'
     },
     {
-        id: 7,
+        id: 6,
         category: 'Test Port',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
-        image: port4,
+        image: port5,
         title: 'Vanilla Javascript Website'
     },
 ]
